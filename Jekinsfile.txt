@@ -3,8 +3,13 @@ pipeline {
   stages {
     stage ('1st stage') {
 	  steps {
-	  echo "Welcome to pipeline Job"
+	  echo "Welcome to pipeline Job1"
 	  }
-	}  
+	} 
+    stage ('2nd stage') {
+	  steps {
+	  echo "Welcome to pipeline Job1"
+	  }
+	}  	
   }
 }
